@@ -1,0 +1,4 @@
+📍To resolve sprocket issue run these command on project repository 
+1 - rake tmp:cache:clear --> Clear the cache for Sprockets and Rails
+2 - rake assets:clobber --> This will remove any cached assets and force Sprockets to recompile them
+3 - rake assets:precompile  --> It will compile
